@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+etl.log
+*.log
+
+# Output (CSVs and PNGs)
+output/
+src/output/
+
+# Jupyter
+.ipynb_checkpoints/
+anaconda_projects/
