@@ -1,0 +1,194 @@
+{
+  "name": "HeadHunter Theme",
+  "dataColors": [
+    "#D0021B",
+    "#FF4444",
+    "#FF6B6B",
+    "#C0392B",
+    "#E74C3C",
+    "#FF8A80",
+    "#B71C1C",
+    "#EF9A9A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#D0021B",
+
+  "visualStyles": {
+
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#1A1A1A" } }],
+
+        "background": [{
+          "solid": { "color": "#FFFFFF" }
+        }],
+
+        "border": [{
+          "color": { "solid": { "color": "#F0F0F0" } },
+          "show": true,
+          "radius": 8
+        }],
+
+        "dropShadow": [{
+          "show": true,
+          "color": { "solid": { "color": "#00000015" } },
+          "position": "outer"
+        }]
+      }
+    },
+
+    "card": {
+      "*": {
+        "background": [{
+          "solid": { "color": "#FFFFFF" }
+        }],
+        "border": [{
+          "color": { "solid": { "color": "#D0021B" } },
+          "show": true,
+          "radius": 8
+        }]
+      },
+      "labels": {
+        "color": [{ "solid": { "color": "#D0021B" } }],
+        "fontSize": [{ "value": 28 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      },
+      "categoryLabels": {
+        "color": [{ "solid": { "color": "#666666" } }],
+        "fontSize": [{ "value": 11 }]
+      }
+    },
+
+    "barChart": {
+      "*": {
+        "background": [{ "solid": { "color": "#FFFFFF" } }]
+      },
+      "dataPoint": {
+        "defaultColor": [{ "solid": { "color": "#D0021B" } }],
+        "showAllDataPoints": [{ "value": true }]
+      },
+      "dataLabels": {
+        "show": [{ "value": true }],
+        "color": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 10 }]
+      },
+      "categoryAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }],
+        "fontSize": [{ "value": 11 }]
+      },
+      "valueAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }],
+        "fontSize": [{ "value": 11 }]
+      },
+      "title": {
+        "fontColor": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      }
+    },
+
+    "clusteredBarChart": {
+      "dataPoint": {
+        "defaultColor": [{ "solid": { "color": "#D0021B" } }]
+      },
+      "dataLabels": {
+        "show": [{ "value": true }],
+        "color": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 10 }]
+      },
+      "title": {
+        "fontColor": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      }
+    },
+
+    "lineChart": {
+      "dataPoint": {
+        "defaultColor": [{ "solid": { "color": "#D0021B" } }],
+        "strokeWidth": [{ "value": 3 }]
+      },
+      "plotArea": {
+        "transparency": [{ "value": 90 }]
+      },
+      "title": {
+        "fontColor": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      },
+      "categoryAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }]
+      },
+      "valueAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }]
+      }
+    },
+
+    "donutChart": {
+      "title": {
+        "fontColor": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      },
+      "legend": {
+        "labelColor": [{ "solid": { "color": "#444444" } }],
+        "fontSize": [{ "value": 10 }]
+      }
+    },
+
+    "scatterChart": {
+      "dataPoint": {
+        "defaultColor": [{ "solid": { "color": "#D0021B" } }]
+      },
+      "title": {
+        "fontColor": [{ "solid": { "color": "#1A1A1A" } }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI Semibold" }]
+      },
+      "categoryAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }]
+      },
+      "valueAxis": {
+        "gridlineColor": [{ "solid": { "color": "#F5F5F5" } }],
+        "labelColor": [{ "solid": { "color": "#444444" } }]
+      }
+    },
+
+    "textbox": {
+      "*": {
+        "background": [{ "solid": { "color": "#D0021B" } }]
+      }
+    }
+  },
+
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#D0021B"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1A1A1A"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#444444"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#666666"
+    }
+  }
+}
